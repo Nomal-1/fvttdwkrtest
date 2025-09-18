@@ -1,0 +1,52 @@
+{
+  "id": "dungeonworld-ko-test",
+  "title": "Dungeon World Complete Korean Translation",
+  "description": "FVTT 던전월드 시스템의 완전 한글 번역 모듈입니다.",
+  "version": "1.0.0",
+  "license": "LICENSE",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12.331",
+    "maximum": "13"
+  },
+  "authors": [
+    {
+      "name": "Nomal"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {"id": "dungeonworld"}
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module"
+      },
+      {
+        "id": "lib-wrapper",
+        "type": "module"
+      }
+    ]
+  },
+  "esmodules": ["dungeonworld-ko.js"],
+  "styles": ["css/dungeonworld.css"],
+  "languages": [
+    {
+    "lang": "ko",
+    "name": "Korean",
+    "path": "ko.json"
+    }
+  ],
+  "url": "#{URL}#",
+  "manifest": "#{MANIFEST}#",
+  "download": "#{DOWNLOAD}#",
+  "license": "LICENSE",
+  "readme": "README.md",
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://avatars2.githubusercontent.com/u/71292812?s=400&u=ccdb4eeb7abf551ca8f314e5a9bfd0479a4d3d41&v=4"
+    }
+  ]
+}
